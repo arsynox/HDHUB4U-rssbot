@@ -6,7 +6,7 @@ import requests
 from requests.exceptions import RequestException
 
 class Hdhub4uScraper:
-    def __init__(self, base_url='https://hdhub4u.website'):
+    def __init__(self, base_url='https://hdhub4u.football'):
         self.base_url = base_url
         self.session = requests.Session()
         self.session.headers.update({
